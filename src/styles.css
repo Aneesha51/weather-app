@@ -4,6 +4,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Roboto Slab', serif;
+
 }
 
 li {
@@ -13,35 +14,51 @@ li {
 
 footer {
     font-family: 'Roboto Slab', serif;
+    font-size: 13px;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-top: 5px;
+}
+
+input::placeholder {
+    color: #5f5dbd;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
 }
 
 
 #city-type {
     width: 500px;
+    background-color: transparent;
     margin-top: 10px;
-    opacity: 0.5;
+    
     margin-left: 10px;
+    box-shadow: #017AD3;
+    border: 1px solid;
 }
 
 .main {
     /*background: linear-gradient(109.6deg, rgb(220, 196, 252) 11.2%, rgb(150, 199, 253) 100.2%);*/
-    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/035/original/weather1.jpg?1693259020");
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/097/236/original/4156249.jpg?1694787617");
     background-size: cover;
+    background-position: center;
     margin-top: 100px;
     border-radius: 10px;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.09);
     width: 850px;
     display: block;
     margin: 100px auto;
+    padding: 20PX 20PX;
+    margin-bottom: 0%;
 }
 
 .search-input{
     display: flex;
 }
+
 .search-btn {
-    border: none;
+    border: 2px solid;
+    box-shadow: #017AD3;
     color: black;
     margin-top: 10px;
     margin-left: 150px;
@@ -50,7 +67,7 @@ footer {
     width: 200px;
     transition: all 200ms ease-in-out;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.18);
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .search-btn:hover {
@@ -60,7 +77,7 @@ footer {
 }
 
 .current-btn{
-    border: none;
+    border: 2px solid;
     color: black;
     margin-top: 10px;
     margin-left: 10px;
@@ -68,8 +85,9 @@ footer {
     font-family: 'Roboto Slab', serif;
     width: 200px;
     transition: all 200ms ease-in-out;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.18);
-    opacity: 0.5;
+    /*box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.18);*/
+    box-shadow: #017AD3;
+    opacity: 0.3;
 }
 
 .current-btn:hover{
@@ -82,6 +100,7 @@ footer {
     margin-top: 10px;
     font-size: 23px;
     opacity: 0.7;
+    color: #5f5dbd;
 }
 
 .location-tag {
@@ -94,7 +113,7 @@ footer {
 .current-day {
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
-    opacity: 0.7;
+    color: #5f5dbd;
 
 }
 
@@ -107,7 +126,7 @@ footer {
     font-family: 'Roboto Slab', serif;
     width: 120px;
     text-align: center;
-    color: black;
+    color: #5f5dbd;
     opacity: 0.9;
     font-size: 15px;
 }
@@ -121,12 +140,15 @@ footer {
 .card-title {
     font-family: 'Roboto Slab', serif;
     text-align: center;
-    font-weight: 300;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0 auto;
 }
 
 .current-details {
     font-family: 'Roboto Slab', serif;
     margin-left: 20px;
+    color: white;
 }
 
 .weather-conditions {
@@ -134,17 +156,19 @@ footer {
     text-align: right;
     margin-bottom: 50px;
     margin-right: 50px;
+    color: #5f5dbd;
 }
 
 .feels-like {
     font-family: 'Roboto Slab', serif;
     font-size: 15px;
     margin-left: 350px;
+    color: #5f5dbd;
 
 }
 
 .card-body {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .current-temprature {
@@ -153,8 +177,31 @@ footer {
     font-size: 50px;
     margin-left: 175px;
     margin-top: 20px;
+    color: #5f5dbd;
+    font-weight: bolder;
 }
 
 .max-temp {
     font-size: 14px;
+    font-weight: bolder;
+    color: #a1c4fd;
+}
+
+.card-row{
+   display: flex; 
+   flex-wrap: wrap;
+   box-sizing: border-box;
+   color: #5f5dbd;
+   font-weight: 200;
+}
+
+.unit {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+a:link {
+    color:#5f5dbd;
 }
