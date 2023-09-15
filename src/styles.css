@@ -13,9 +13,8 @@ li {
 
 footer {
     font-family: 'Roboto Slab', serif;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
-    margin-top: 5px;
 }
 
 input::placeholder {
@@ -46,12 +45,11 @@ input:focus{
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/097/236/original/4156249.jpg?1694787617");
     background-size: cover;
     background-position: center;
-    margin-top: 100px;
     border-radius: 10px;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.09);
     width: 850px;
     display: block;
-    margin: 100px auto;
+    margin: 30px auto;
     padding: 10PX 20PX;
     margin-bottom: 3%;
 }
@@ -208,4 +206,21 @@ input:focus{
 
 a:link {
     color:#5f5dbd;
+}
+
+.cloud-image {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    top: 30px;
+    left: -55px;
+}
+
+.cloud-image1 {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 85px;
+    left: 40px;
+
 }
