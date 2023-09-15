@@ -1,6 +1,5 @@
 body {
-    /*background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/094/962/original/sky.jpg?1693239247");*/
-    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    background: linear-gradient(110.6deg, rgb(179, 157, 219) 7%, rgb(150, 159, 222) 47.7%, rgb(24, 255, 255) 100.6%);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Roboto Slab', serif;
@@ -26,19 +25,24 @@ input::placeholder {
     margin-left: 10px;
 }
 
+input:focus{
+    background-color: transparent;
+    color: #5f5dbd;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 
 #city-type {
     width: 500px;
     background-color: transparent;
     margin-top: 10px;
-    
     margin-left: 10px;
     box-shadow: #017AD3;
     border: 1px solid;
 }
 
 .main {
-    /*background: linear-gradient(109.6deg, rgb(220, 196, 252) 11.2%, rgb(150, 199, 253) 100.2%);*/
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/097/236/original/4156249.jpg?1694787617");
     background-size: cover;
     background-position: center;
@@ -48,8 +52,8 @@ input::placeholder {
     width: 850px;
     display: block;
     margin: 100px auto;
-    padding: 20PX 20PX;
-    margin-bottom: 0%;
+    padding: 10PX 20PX;
+    margin-bottom: 3%;
 }
 
 .search-input{
