@@ -212,8 +212,9 @@ a:link {
     width: 150px;
     height: 100px;
     position: relative;
-    top: 30px;
-    left: -55px;
+    top: 50px;
+    left: 250px;
+    opacity: 0.6;
 }
 
 .cloud-image1 {
@@ -221,6 +222,5 @@ a:link {
     height: 100px;
     position: absolute;
     top: 85px;
-    left: 40px;
-
+    left: 180px;
 }
